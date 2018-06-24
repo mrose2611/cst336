@@ -1,0 +1,111 @@
+body {
+    background-color: aqua;
+    color: black;
+}
+
+header, main, nav, footer, #content{
+    text-align: center;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+#topHR {
+    width: 50%;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+summary {
+    font-style: italic;
+}
+
+.description {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-indent: 1%;
+}
+nav a {  /* links within "nav" container */
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {  /* pseudo class */
+    border-bottom: 5px orange solid;
+    font-size: 2em;
+    transition: .9s;  /* transition effect */
+}
+#summaryImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+#footerImage {
+    border-radius: 30%;
+}
+
+#subtopic1Image {
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+#subtopic2Image {
+    border-radius: 8px;
+}
+
+#subtopic3Image {
+    border: 3px solid #021a40;
+}
+#summaryText {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#subtopic1Text {
+    font-size:1.5em;
+    text-align: left;
+    text-indent: 2%;
+}
+
+#subtopic2Text {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#subtopic2Text p {
+    margin-bottom: 0px;
+}
+
+#subtopic3Text {
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#subtopic3Text p  {
+    margin-bottom: 5px;
+}
+
+#current {
+    border-bottom: 3px orange solid;
+    font-size: 2em;
+}
+
+ul {
+    margin-top: 5px;
+    text-align: left;
+    font-size: 1.2em;
+}
+footer {
+    clear: left;
+    font-size: 0.9em;
+    color: grey;
+}
