@@ -12,6 +12,7 @@ echo "Michael Rose's CST336 Internet Programming";
 <br /> <br />
 <h1> Labs </h1>
 <a href="labs/lab1/"> Lab 1 </a>
+<a href="labs/777/index.php"> Lab 2</a>
 
 </body>
 </html>
