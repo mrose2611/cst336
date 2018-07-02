@@ -12,10 +12,17 @@ echo "Michael Rose's CST336 Internet Programming";
 <br />
 <a href="hw/hw2/main.php"> Homework 2</a>
 <br /> <br />
+
 <h1> Labs </h1>
 <a href="labs/lab1/"> Lab 1 </a>
 <br />
-<a href="labs/777/index.php"> Lab 2</a>
 
+<a href="labs/777/index.php"> Lab 2</a>
+<br>
+
+<a href="labs/Slider/index.php"> Lab 3</a>
+<br>
+
+<a href="labs/scart/index.php"> Lab 4</a>
 </body>
 </html>
