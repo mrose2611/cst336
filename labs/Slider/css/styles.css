@@ -6,10 +6,19 @@
     }
     
     input {
-        font-size: 3em;
+        font-size: 2em;
         color: black;
+        border-radius:10px;
     }
     
+    #radioButtonDiv {
+        display:inline-block;
+        color: black;
+        text-align:left; 
+        background-color:white; 
+        padding:10px; 
+        border-radius:10px;
+    }
     #carousel-example-generic {
          margin: 0 auto;   
          width: 700px;

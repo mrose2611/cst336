@@ -46,7 +46,7 @@
             <!-- Indicators Here -->
             <ol class="carousel-indicators">
                 <?php
-                    for($i = 0; $i < 5; $i++) {
+                    for($i = 0; $i < 7; $i++) {
                         echo "<li data-target='#carousel-example-generic' data-slide-to='$i'";
                         echo ($i==0)?" class='active'": "";
                         echo "></li>";
@@ -56,7 +56,7 @@
             <!-- Wrapper for Images -->
             <div class="carousel-inner" role="listbox">
                 <?php
-                    for ($i = 0; $i < 5; $i++) {
+                    for ($i = 0; $i < 7; $i++) {
                         do {
                             $randomIndex = rand(0,count($imageURLs));
                         } while (!isset($imageURLs[$randomIndex]));
@@ -88,17 +88,24 @@
         <!-- HTML form goes here! -->
         <form>
             <input type="text" name="keyword" placeholder="Keyword" value="<?=$_GET['keyword']?>"/>
+            <div id="radioButtonDiv">
             <input type="radio" id="lhorizontal" name="layout" value="horizontal">
             <label for="Horizontal"></label><label for="lhorizontal"> Horizontal </label>
+            <br>
             <input type="radio" id="lvertical" name="layout" value="vertical">
             <label for="Vertical"></label><label for="lvertical"> Vertical </label>
-            <select name = "category">
+            <br>
+            </div>
+            <br>
+            <select name = "category" style="color:black">
                 <option value = "">Select One</option>
                 <option value = "ocean">Ocean</option>
                 <option>Forest</option>
                 <option>Mountain</option>
                 <option>Snow</option>
             </select>
+            <br>
+            <br>
             <input type="submit" value="Submit"/>
         </form>
         
