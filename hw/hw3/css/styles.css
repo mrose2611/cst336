@@ -48,7 +48,7 @@ legend {
 }
 
 #radioRed {
-    color:red;
+    color:#b30000;
 }
 
 #radioBlue {
@@ -61,6 +61,10 @@ legend {
 
 #radioWhite {
     color:grey;
+}
+
+.required, .errors {
+    color:red;
 }
 
 .selectors {
