@@ -23,7 +23,6 @@ select {
 
 #instructions {
     text-align: center;
-    font-size: 0.9em;
     margin-bottom: 0px;
     margin-top: 10px;
 }
@@ -63,7 +62,7 @@ legend {
     color:grey;
 }
 
-.required, .errors {
+.errors {
     color:red;
 }
 

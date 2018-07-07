@@ -59,7 +59,7 @@
             
             <div id="radioButtonDiv">
                 <fieldset class="selectors">
-                    <legend>Gender: <span class="required">*</span></legend>
+                    <legend>Gender:</legend>
                     <input type="radio" id="rmale" name="gender" value="male" <?= $gender == "male" ? "checked" : "" ?>>
                     <label for="rmale"> Male </label>
                     <br>
@@ -71,7 +71,7 @@
 
             </div>
             <fieldset class="selectors">
-                <legend>Color: <span class="required">*</span></legend>
+                <legend>Color:</legend>
                 <input type="checkbox" id="red" name="colors[]" value="red" <?= in_array("red",$colors) ? "checked" : "" ?>>
                 <label for="red" id="radioRed"> Red </label>
                 <input type="checkbox" id="green" name="colors[]" value="green" <?= in_array("green",$colors) ? "checked" : "" ?>>
@@ -98,7 +98,7 @@
                 }  
             }
             else {
-                echo "<p id= 'errorText'> Please complete all fields.</p>";
+                echo "<p id= 'errorText'> All fields are required.</p>";
             }
         ?>
         </div>
