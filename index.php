@@ -11,6 +11,8 @@ echo "Michael Rose's CST336 Internet Programming";
 <a href="hw/hw1/summary.html"> Homework 1</a>
 <br />
 <a href="hw/hw2/main.php"> Homework 2</a>
+<br>
+<a href="hw/hw3/main.php"> Homework 3</a>
 <br /> <br />
 
 <h1> Labs </h1>
