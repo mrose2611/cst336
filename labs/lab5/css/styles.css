@@ -1,0 +1,13 @@
+div {
+    
+    margin: 0 auto;
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    border-color: #275399;
+}
+
+input {
+    
+    color: #275399;
+}
