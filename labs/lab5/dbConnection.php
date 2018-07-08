@@ -24,3 +24,5 @@ function getDatabaseConnection($dbname = 'ottermart'){
     return $dbConn;
     
 }
+
+?>

@@ -81,33 +81,36 @@ function displaySearchResults(){
 <html>
     
     <head>
-        <title> Ottermart Product Search </title>
+        <title> OtterMart Product Search </title>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         
-        <div>
-            <h1> Ottermart Product Search </h1>
+        <div id="formWindow">
+            <img id="logo" src="img/csumb_logo.jpg" alt="Picture of CSUMB's logo" />
+            <h1> OtterMart Product Search </h1>
             <form>
-                Product: <input type="text" name="product" />
+                <span class="topic"> Product: </span><input type="text" name="product" />
                 <br>
-                Category: 
+                <span class="topic">Category: </span>
                     <select name="category">
                         <option value=""> Select One </option>
                         <?=displayCategories()?>
                     </select>
                 <br>
-                Price: From <input type="text" name="priceFrom" size="7" />
-                       To   <input type="text" name="priceTo" size="7" />
+                <span class="topic">Price: </span><span class="toAndFrom">From</span> <input type="text" name="priceFrom" size="7" />
+                       <span class="toAndFrom">To   </span><input type="text" name="priceTo" size="7" />
                 <br>
-                Order result by: 
+                <span class="order">Order result by: </span>
                 <br>
                 
+                <div id="radioButtons">
                 <input type="radio" name="orderBy" value="price" /> Price <br>
-                <input type="radio" name="orderBy" value="name" /> Name
+                <input type="radio" name="orderBy" value="name" /> Name 
+                </div>
                 
-                <br /> <br />
-                <input type="submit" value="Search" name="searchForm" />
+                <br />
+                <input id="submitButton" type="submit" value="Search" name="searchForm" />
                 
             </form>
             
@@ -116,6 +119,8 @@ function displaySearchResults(){
         </div>
         
         <hr>
+        <div id="searchResults">
         <?= displaySearchResults() ?>
+        </div>
     </body>
 </html>
