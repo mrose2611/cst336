@@ -14,6 +14,8 @@ echo "Michael Rose's CST336 Internet Programming";
 <br>
 <a href="hw/hw3/main.php"> Homework 3</a>
 <br /> <br />
+<a href="hw/spaceInvaders/index.html">Homework 4</a>
+<br /><br />
 
 <h1> Labs </h1>
 <a href="labs/lab1/"> Lab 1 </a>
