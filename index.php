@@ -13,7 +13,7 @@ echo "Michael Rose's CST336 Internet Programming";
 <a href="hw/hw2/main.php"> Homework 2</a>
 <br>
 <a href="hw/hw3/main.php"> Homework 3</a>
-<br /> <br />
+<br />
 <a href="hw/spaceInvaders/index.html">Homework 4</a>
 <br /><br />
 
