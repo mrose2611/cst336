@@ -39,5 +39,7 @@ echo "Michael Rose's CST336 Internet Programming";
 <a href="labs/hangman/index.html"> Lab 7 (Hangman)</a>
 <br>
 
+<a href="labs/pets/index.php"> Lab 8</a>
+<br>
 </body>
 </html>
