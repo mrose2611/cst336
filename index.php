@@ -43,6 +43,6 @@ echo "Michael Rose's CST336 Internet Programming";
 <br>
 
 <h1>Final Project</h1>
-<a href="final_project/frontpage.php">Final Project</a>
+<a href="final_project/frontPage.php">Final Project</a>
 </body>
 </html>
