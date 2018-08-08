@@ -41,5 +41,8 @@ echo "Michael Rose's CST336 Internet Programming";
 
 <a href="labs/pets/index.php"> Lab 8</a>
 <br>
+
+<h1>Final Project</h1>
+<a href="final_project/frontpage.php">Final Project</a>
 </body>
 </html>
